@@ -1,0 +1,29 @@
+{
+  "name": "sun-prediction-bot",
+  "version": "1.0.0",
+  "description": "Hệ thống phân tích cầu nâng cao và dự đoán tự động cho Sun",
+  "main": "sun.js",
+  "scripts": {
+    "start": "node sun.js",
+    "dev": "nodemon sun.js"
+  },
+  "keywords": [
+    "prediction",
+    "bot",
+    "sun",
+    "b52",
+    "analysis"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
